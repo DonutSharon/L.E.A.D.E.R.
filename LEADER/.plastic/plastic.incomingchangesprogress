@@ -1,0 +1,236 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      1
+    ],
+    "SourceCsetId": 2,
+    "DestinationCsetId": 1,
+    "FileConflicts": [
+      {
+        "Path": "/Packages/manifest.json",
+        "ItemId": 137,
+        "ParentItemId": 133,
+        "BaseRevId": 102,
+        "SourceRevId": 872,
+        "DestinationRevId": 102
+      },
+      {
+        "Path": "/Packages/packages-lock.json",
+        "ItemId": 138,
+        "ParentItemId": 133,
+        "BaseRevId": 103,
+        "SourceRevId": 873,
+        "DestinationRevId": 103
+      },
+      {
+        "Path": "/ProjectSettings/AudioManager.asset",
+        "ItemId": 139,
+        "ParentItemId": 135,
+        "BaseRevId": 104,
+        "SourceRevId": 874,
+        "DestinationRevId": 104
+      },
+      {
+        "Path": "/ProjectSettings/BurstAotSettings_StandaloneWindows.json",
+        "ItemId": 141,
+        "ParentItemId": 135,
+        "BaseRevId": 106,
+        "SourceRevId": 875,
+        "DestinationRevId": 106
+      },
+      {
+        "Path": "/ProjectSettings/ClusterInputManager.asset",
+        "ItemId": 142,
+        "ParentItemId": 135,
+        "BaseRevId": 107,
+        "SourceRevId": 876,
+        "DestinationRevId": 107
+      },
+      {
+        "Path": "/ProjectSettings/CommonBurstAotSettings.json",
+        "ItemId": 143,
+        "ParentItemId": 135,
+        "BaseRevId": 108,
+        "SourceRevId": 877,
+        "DestinationRevId": 108
+      },
+      {
+        "Path": "/ProjectSettings/DynamicsManager.asset",
+        "ItemId": 144,
+        "ParentItemId": 135,
+        "BaseRevId": 109,
+        "SourceRevId": 878,
+        "DestinationRevId": 109
+      },
+      {
+        "Path": "/ProjectSettings/EditorBuildSettings.asset",
+        "ItemId": 145,
+        "ParentItemId": 135,
+        "BaseRevId": 110,
+        "SourceRevId": 879,
+        "DestinationRevId": 110
+      },
+      {
+        "Path": "/ProjectSettings/EditorSettings.asset",
+        "ItemId": 146,
+        "ParentItemId": 135,
+        "BaseRevId": 111,
+        "SourceRevId": 880,
+        "DestinationRevId": 111
+      },
+      {
+        "Path": "/ProjectSettings/GraphicsSettings.asset",
+        "ItemId": 147,
+        "ParentItemId": 135,
+        "BaseRevId": 112,
+        "SourceRevId": 881,
+        "DestinationRevId": 112
+      },
+      {
+        "Path": "/ProjectSettings/InputManager.asset",
+        "ItemId": 148,
+        "ParentItemId": 135,
+        "BaseRevId": 113,
+        "SourceRevId": 882,
+        "DestinationRevId": 113
+      },
+      {
+        "Path": "/ProjectSettings/MemorySettings.asset",
+        "ItemId": 149,
+        "ParentItemId": 135,
+        "BaseRevId": 114,
+        "SourceRevId": 883,
+        "DestinationRevId": 114
+      },
+      {
+        "Path": "/ProjectSettings/NavMeshAreas.asset",
+        "ItemId": 150,
+        "ParentItemId": 135,
+        "BaseRevId": 115,
+        "SourceRevId": 884,
+        "DestinationRevId": 115
+      },
+      {
+        "Path": "/ProjectSettings/PackageManagerSettings.asset",
+        "ItemId": 151,
+        "ParentItemId": 135,
+        "BaseRevId": 116,
+        "SourceRevId": 885,
+        "DestinationRevId": 116
+      },
+      {
+        "Path": "/ProjectSettings/Physics2DSettings.asset",
+        "ItemId": 152,
+        "ParentItemId": 135,
+        "BaseRevId": 117,
+        "SourceRevId": 886,
+        "DestinationRevId": 117
+      },
+      {
+        "Path": "/ProjectSettings/PresetManager.asset",
+        "ItemId": 153,
+        "ParentItemId": 135,
+        "BaseRevId": 118,
+        "SourceRevId": 887,
+        "DestinationRevId": 118
+      },
+      {
+        "Path": "/ProjectSettings/ProjectSettings.asset",
+        "ItemId": 154,
+        "ParentItemId": 135,
+        "BaseRevId": 119,
+        "SourceRevId": 888,
+        "DestinationRevId": 119
+      },
+      {
+        "Path": "/ProjectSettings/ProjectVersion.txt",
+        "ItemId": 155,
+        "ParentItemId": 135,
+        "BaseRevId": 120,
+        "SourceRevId": 889,
+        "DestinationRevId": 120
+      },
+      {
+        "Path": "/ProjectSettings/QualitySettings.asset",
+        "ItemId": 156,
+        "ParentItemId": 135,
+        "BaseRevId": 121,
+        "SourceRevId": 890,
+        "DestinationRevId": 121
+      },
+      {
+        "Path": "/ProjectSettings/SceneTemplateSettings.json",
+        "ItemId": 157,
+        "ParentItemId": 135,
+        "BaseRevId": 122,
+        "SourceRevId": 891,
+        "DestinationRevId": 122
+      },
+      {
+        "Path": "/ProjectSettings/TagManager.asset",
+        "ItemId": 159,
+        "ParentItemId": 135,
+        "BaseRevId": 124,
+        "SourceRevId": 892,
+        "DestinationRevId": 124
+      },
+      {
+        "Path": "/ProjectSettings/TimeManager.asset",
+        "ItemId": 160,
+        "ParentItemId": 135,
+        "BaseRevId": 125,
+        "SourceRevId": 893,
+        "DestinationRevId": 125
+      },
+      {
+        "Path": "/ProjectSettings/UnityConnectSettings.asset",
+        "ItemId": 161,
+        "ParentItemId": 135,
+        "BaseRevId": 126,
+        "SourceRevId": 894,
+        "DestinationRevId": 126
+      },
+      {
+        "Path": "/ProjectSettings/URPProjectSettings.asset",
+        "ItemId": 162,
+        "ParentItemId": 135,
+        "BaseRevId": 127,
+        "SourceRevId": 895,
+        "DestinationRevId": 127
+      },
+      {
+        "Path": "/ProjectSettings/VersionControlSettings.asset",
+        "ItemId": 163,
+        "ParentItemId": 135,
+        "BaseRevId": 128,
+        "SourceRevId": 896,
+        "DestinationRevId": 128
+      },
+      {
+        "Path": "/ProjectSettings/VFXManager.asset",
+        "ItemId": 164,
+        "ParentItemId": 135,
+        "BaseRevId": 129,
+        "SourceRevId": 897,
+        "DestinationRevId": 129
+      },
+      {
+        "Path": "/ProjectSettings/XRPackageSettings.asset",
+        "ItemId": 165,
+        "ParentItemId": 135,
+        "BaseRevId": 130,
+        "SourceRevId": 898,
+        "DestinationRevId": 130
+      },
+      {
+        "Path": "/ProjectSettings/XRSettings.asset",
+        "ItemId": 166,
+        "ParentItemId": 135,
+        "BaseRevId": 131,
+        "SourceRevId": 899,
+        "DestinationRevId": 131
+      }
+    ]
+  }
+]
