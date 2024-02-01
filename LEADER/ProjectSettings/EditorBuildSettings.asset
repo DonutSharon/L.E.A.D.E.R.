@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Convai/Scenes/Convai Demo - VR.unity
     guid: eda28d2f4fd11e84893a8d05344d7424
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a7970b4603a5a94e829affc5f0c9008,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9cfb797f7b487ed48bc018b3aa66b3cd,
