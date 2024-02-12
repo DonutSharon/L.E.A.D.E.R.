@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18373783, g: 0.22913599, b: 0.30466178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18373768, g: 0.22913559, b: 0.30466104, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -517,6 +517,21 @@ PrefabInstance:
         type: 3}
       propertyPath: _playerMovementKeyAction.m_SingletonActionBindings.Array.data[4].m_Path
       value: <Keyboard>/rightArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402891701032687287, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.064
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402891701032687287, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402891701032687287, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.331
       objectReference: {fileID: 0}
     - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
         type: 3}
