@@ -7,19 +7,19 @@
             "actions": [
                 {
                     "name": "MenuButton",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "7c95ae56-a558-407a-ae10-c3729360e087",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": "Press",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "d22bdb3d-5650-432d-b5d3-658575a01570",
-                    "path": "<OculusTouchController>/start",
+                    "id": "001c33d4-7f06-40b4-9d1e-9d0ffa5a7663",
+                    "path": "<OculusTouchController>{LeftHand}/menu",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
