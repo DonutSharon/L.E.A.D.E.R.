@@ -8,8 +8,16 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
     public byte MaxPlayersPerRoom = 4;
     public void Start()
     {
-        PhotonNetwork.CreateRoom("default", new RoomOptions() { MaxPlayers = MaxPlayersPerRoom }, null);
+        try
+        {
+            PhotonNetwork.CreateRoom("Room");
 
+        }
+        catch
+        {
+            PhotonNetwork.JoinRoom("Room");
+
+        }
     }
 
 
