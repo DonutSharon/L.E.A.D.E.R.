@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scripts/Scenes/conAI VR test.unity
     guid: abe6ec562becee54aad9234d3daed6e0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scripts/Scenes/Loading.unity
     guid: df3340dfa61660f46b7cd13c529b9296
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scripts/Scenes/Lobby.unity
     guid: a19edd0881bbfc24bad88431fe4fd374
   - enabled: 1
