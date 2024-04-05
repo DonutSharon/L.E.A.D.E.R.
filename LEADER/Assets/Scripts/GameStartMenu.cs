@@ -44,7 +44,7 @@ public class GameStartMenu : MonoBehaviour
     public void StartGame()
     {
         HideAll();
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("Loading Instructor");
     }
 
     public void HideAll()

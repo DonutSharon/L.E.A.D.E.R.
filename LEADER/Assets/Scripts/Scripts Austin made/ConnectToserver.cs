@@ -24,6 +24,6 @@ public class ConnectToserver : MonoBehaviourPunCallbacks
 
     public override void OnJoinedLobby()
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("Lobby Instructor");
     }
 }
