@@ -14,7 +14,7 @@ public class Spawnplayer : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
-        if (isInstructor.Instructor)
+        if (isInstructor.Instructor==true)
         {
 
 

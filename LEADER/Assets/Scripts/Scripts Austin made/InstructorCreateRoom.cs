@@ -10,8 +10,7 @@ public class InstructorCreateRoom : MonoBehaviourPunCallbacks
     public byte MaxPlayersPerRoom = 4;
     public void Start()
     {
-        isInstructor.Instructor = true;
-        PhotonNetwork.CreateRoom("Room");
+        PhotonNetwork.CreateRoom("ROOM 1");
 
 
 

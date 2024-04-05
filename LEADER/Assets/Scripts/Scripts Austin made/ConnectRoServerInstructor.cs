@@ -5,14 +5,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 using Photon.Pun;
-
-public class ConnectToserver : MonoBehaviourPunCallbacks
+public class ConnectRoServerInstructor : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     private void Start()
     {
 
-      PhotonNetwork.ConnectUsingSettings();
+        PhotonNetwork.ConnectUsingSettings();
 
     }
 
@@ -24,6 +23,6 @@ public class ConnectToserver : MonoBehaviourPunCallbacks
 
     public override void OnJoinedLobby()
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("Lobby Instructor");
     }
 }
