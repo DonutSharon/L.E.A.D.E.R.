@@ -18,7 +18,7 @@ public class numberofpeople : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Text.text = "Players "+ PhotonNetwork.CurrentRoom.PlayerCount;
-           
+        Text.text = "Players "+ PhotonNetwork.CurrentRoom.PlayerCount +" " + PhotonNetwork.CurrentRoom.Name;
+
     }
 }
