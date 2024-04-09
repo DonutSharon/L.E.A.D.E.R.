@@ -1,31 +1,32 @@
-using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using Photon.Pun;
-using static isInstructor;
+using UnityEngine;
 
 
-public class Spawnplayer : MonoBehaviour
+public class Spawnplayer : MonoBehaviourPunCallbacks
 {
-    // Start is called before the first frame update
+    private Vector3 spawnLocation;
+    private GameObject playerBody;
     public GameObject playerPrefab;
-    public GameObject InstructorPrefab;
     public float x;
     public float y;
     public float z;
-    // Update is called once per frame
-    private void Start()
+    
+    
+    public override void OnJoinedRoom()
     {
-        if (isInstructor.Instructor==true)
-        {
+        base.OnJoinedRoom();
+        Debug.Log("Other players joined the room.");
+        Vector3 position = new Vector3(x, y, z);
+        PhotonNetwork.Instantiate(playerPrefab.name, position, Quaternion.identity);
 
-
-            Vector3 position = new Vector3(x, y, z);
-            PhotonNetwork.Instantiate(InstructorPrefab.name, position, Quaternion.identity);
-        }
-        else
-        {
-            Vector3 position = new Vector3(x, y, z);
-            PhotonNetwork.Instantiate(playerPrefab.name, position, Quaternion.identity);
-        }
     }
+    public override void OnLeftRoom()
+    {
+        base.OnLeftRoom();
+        PhotonNetwork.Destroy(playerBody);
+    }
+
 }
 

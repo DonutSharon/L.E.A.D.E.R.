@@ -11,6 +11,7 @@ public class InstructorCreateRoom : MonoBehaviourPunCallbacks
     public void Start()
     {
         PhotonNetwork.CreateRoom("ROOM 1");
+        Debug.Log("room created, yay!");
 
 
 
