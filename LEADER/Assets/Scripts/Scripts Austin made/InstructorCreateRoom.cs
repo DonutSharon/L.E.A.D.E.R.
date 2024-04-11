@@ -21,6 +21,6 @@ public class InstructorCreateRoom : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
 
-        PhotonNetwork.LoadLevel("L.E.A.D.E.R");
+        PhotonNetwork.LoadLevel("L.E.A.D.E.R  Instructor");
     }
 }
