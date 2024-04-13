@@ -2652,85 +2652,6 @@ MonoBehaviour:
   returnButtons:
   - {fileID: 1144905150}
   - {fileID: 0}
---- !u!1001 &1274567945
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -7919591470793417897, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: sceneViewId
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 634310092927521367, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5568170968374534092, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: m_Name
-      value: Simple XR Player with Ray Interactor
-      objectReference: {fileID: 0}
-    - target: {fileID: 7272619098454464950, guid: a68f0818a58ae1245bb1b7d397e08b16,
-        type: 3}
-      propertyPath: sceneViewId
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -7919591470793417897, guid: a68f0818a58ae1245bb1b7d397e08b16, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a68f0818a58ae1245bb1b7d397e08b16, type: 3}
 --- !u!1 &1295627044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,6 +3158,76 @@ MonoBehaviour:
   clickAudioName: uiclick
   hoverEnterAudioName: uihoverenter
   hoverExitAudioName: 
+--- !u!1001 &1546066938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056144950106497200, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915152565391437160, guid: a04b717be9a61254c86fbd5538589c18,
+        type: 3}
+      propertyPath: m_Name
+      value: CONVAI VR Base Scene Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8008655514291642030, guid: a04b717be9a61254c86fbd5538589c18, type: 3}
+    - {fileID: 7099103082771425554, guid: a04b717be9a61254c86fbd5538589c18, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a04b717be9a61254c86fbd5538589c18, type: 3}
 --- !u!1 &1583509992
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,6 +3870,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893632933}
   m_CullTransparentMesh: 1
+--- !u!1 &1925630467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1925630469}
+  - component: {fileID: 1925630468}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1925630468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925630467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+--- !u!4 &1925630469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925630467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0610154, y: 1.7481786, z: -3.6949484}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047655894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3925,4 +3962,5 @@ SceneRoots:
   - {fileID: 226729186}
   - {fileID: 838107453}
   - {fileID: 19669739}
-  - {fileID: 1274567945}
+  - {fileID: 1925630469}
+  - {fileID: 1546066938}

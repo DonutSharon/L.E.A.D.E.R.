@@ -2720,6 +2720,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simple XR Player with Ray Interactor
       objectReference: {fileID: 0}
+    - target: {fileID: 7272619098454464950, guid: a68f0818a58ae1245bb1b7d397e08b16,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7919591470793417897, guid: a68f0818a58ae1245bb1b7d397e08b16, type: 3}
     m_RemovedGameObjects: []
