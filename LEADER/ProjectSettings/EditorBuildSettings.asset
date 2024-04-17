@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Player Scenes/L.E.A.D.E.R.unity
     guid: eccb2bc76074b2849b626b75e749890d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Instructor Scences/Loading Instructor.unity
     guid: d11fa8b43a9063f43833f7490f02617e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Instructor Scences/Lobby Instructor.unity
     guid: a831a007e4c573b4480eb94d672625ce
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Instructor Scences/L.E.A.D.E.R  Instructor.unity
     guid: ca1c852cbe0ee094c9d69c0bc25b5b83
   - enabled: 0
