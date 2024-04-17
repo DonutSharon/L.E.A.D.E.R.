@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Convai/Scenes/Convai Demo - VR.unity
     guid: eda28d2f4fd11e84893a8d05344d7424
   - enabled: 0
-    path: Assets/Scenes/conAI VR test.unity
+    path: Assets/Scripts/Scenes/conAI VR test.unity
     guid: abe6ec562becee54aad9234d3daed6e0
   - enabled: 0
     path: Assets/Scenes/Instructor Scences/1 Start Scene.unity
